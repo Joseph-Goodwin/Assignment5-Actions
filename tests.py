@@ -21,6 +21,10 @@ class TestCase(unittest.TestCase):
         last = "cherry"
         self.assertEqual((first, last), task.list())
 
+    def test_time(self):
+        expected = 365
+        self.assertEqual(expected, task.time())
+
 
 if __name__ == '__main__':
     unittest.main()
