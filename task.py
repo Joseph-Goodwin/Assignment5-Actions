@@ -20,7 +20,7 @@ def list():
 
 
 def time():
-    today = date(2020,2,27)
+    today = date(2020, 2, 27)
     lastYear = date(2019, 2, 27)
     difference = today - lastYear
     return difference.days
