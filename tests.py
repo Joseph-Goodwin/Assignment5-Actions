@@ -16,6 +16,11 @@ class TestCase(unittest.TestCase):
         expected = 28
         self.assertEqual(expected, task.pi())
 
+    def test_list(self):
+        first = "apple"
+        last = "cherry"
+        self.assertEqual((first, last), task.list())
+
 
 if __name__ == '__main__':
     unittest.main()
